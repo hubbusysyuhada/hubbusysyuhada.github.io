@@ -1,0 +1,115 @@
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+  }
+
+*, html {
+    margin:0;
+    padding:0;
+    /* background: url(./pexels-photo-3473569.webp) no-repeat center fixed;
+    background-size: cover; */
+    background-color: black;
+}
+
+#backdrop {
+    width: 100%;
+}
+
+#logo {
+    width: 100%;
+    margin-top: 17%;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+    font-size: 30px;
+    color: rgb(255, 30, 0);
+    /* background-color: plum; */
+    display: inline;
+}
+#logo :hover {
+    color: yellow;
+    /* display: inline; */
+}
+
+.formInputan {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.waktu {
+    border-style: groove;
+    width: 150px;
+    height: 20px;
+    border-radius: 10%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+#submit {
+    width: 473px;
+    height: 30px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+#ingatkan {
+    width: 473px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+}
+
+
+.penutup {
+    color: wheat;
+    background-color: black;
+    text-align: center;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+header {
+    height: 15%;
+}
+
+main {
+    height: 75%;
+}
+
+#display-jam, #display-menit, #display-detik {
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    z-index: 10;
+    opacity: 1;
+
+}
+
+#display-reminder {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 310px;
+    margin-bottom: 10px;
+}
+
+#button {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.display-bar {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
