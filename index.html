@@ -2,55 +2,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+          background-image: url('/pexels-photo-3473569.webp');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TIMERhubb - Your Simple Timer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
-    <audio src="./salamisound-6529402-fire-sirens-long-version.mp3" id="bising" loop></audio>
+    <audio src="./annoying-as-fuck.mp3" id="bising" loop preload="auto"></audio>
 </head>
 <body>
     <br>
     <br>
     <br>
     <header>
-        <div id="logo"><h1>TIMER<span id="hubb">hubb</span></h1></div>
-        <h3 style="color: white;" style="text-align: center;">your friendly reminder</h3>
+        <div id="logo"><h1>TIMER:<span id="hubb">hubb</span></h1></div>
+        <h3>YOUR FRIENDLY REMINDER</h3>
     </header>
 
     <main>
         <div class="formInputan">
             <form action="#" onsubmit="h8Timer()">
-                <input type="text" class="remind" id="ingatkan" placeholder="REMIND ME TO" required>
+                <input type="text" class="remind" id="ingatkan" placeholder="REMIND ME TO" required style="background-color: red;">
                 <br>
-                <input type="number" class="waktu" id="jam" placeholder="HOURS" required>
+                <input type="number" class="waktu" id="jam" placeholder="HOURS" min="0" required>
                 <input type="number" class="waktu" id="menit" min="0" max="60" placeholder="MINUTES" required>
                 <input type="number" class="waktu" id="detik" min="0" max="60" placeholder="SECONDS" required>
                 <br>
                 <input type="submit" value="COUNT ME DOWN!" id="submit">
             </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="label">reminder-queue</div>
+            <div id="queue">display-antrean</div>
+            <br>
+            <button type="button" class="btn" id="button" onclick="stop()">STOP ALARM</button>            
         </div>
-        <br>
-        <br>
-        <br>
-
-        <!-- <div class="display-bar" id="hasil">
-            <div id="display-reminder">display-reminder</div>
-            <br>
-            <div id="display-jam">display-jam</div>
-            <div id="display-menit">display-menit</div>
-            <div id="display-detik">display-detik</div>
-            <br>
-            <button type="button" class="btn" id="button" onclick="stop()">STOP</button>
-        </div> -->
-
     </main>
 
     <footer>
         <div class="penutup">
+            <a href="#" target="_blank" style="color: wheat;">Read Me</a>
             <p>copyright by Hubbusysyuhada</p>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" style="color: wheat;">About me</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" style="color: wheat;">About Me</a>
         </div>
     </footer>
 
