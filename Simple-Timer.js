@@ -113,4 +113,6 @@ function stop () {
     clearTimeout()
     console.log("test")
     alarm.pause();
+    let elemen = document.getElementById("hasil");
+    elemen.removeChild(elemen.firstChild);
 }
