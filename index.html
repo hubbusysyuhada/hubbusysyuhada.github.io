@@ -4,7 +4,7 @@
 <head>
     <style>
         body {
-          background-image: url('/pexels-photo-3473569.webp');
+          background-image: url('./pexels-photo-3473569.webp');
           background-repeat: no-repeat;
           background-attachment: fixed;
           background-size: cover;
@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <audio src="./annoying-as-fuck.mp3" id="bising" loop preload="auto"></audio>
 </head>
 <body>
@@ -42,16 +47,19 @@
             <br>
             <br>
             <br>
-            <div id="label">reminder-queue</div>
-            <div id="queue">display-antrean</div>
-            <br>
-            <button type="button" class="btn" id="button" onclick="stop()">STOP ALARM</button>            
+            <div id="display">
+                <div id="label"><p>reminder</p></div>
+                <div id="queue"><p>queue</p></div>
+                <br>
+                <button type="button" class="btn" id="button" onclick="stop()">STOP ALARM</button>            
+                
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="penutup">
-            <a href="#" target="_blank" style="color: wheat;">Read Me</a>
+            <a href="./README.md" target="_blank" style="color: wheat;">Read Me</a>
             <p>copyright by Hubbusysyuhada</p>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" style="color: wheat;">About Me</a>
         </div>
