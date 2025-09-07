@@ -1,74 +1,36 @@
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Getting Started
 
-### TIMER:Hubb (hubbusysyuhada.github.io) merupakan sebuah multiple-timer berbasis online dan dikembangkan oleh Muhammad Hafidz Hubbusysyuhada ###
+First, run the development server:
 
-### program dan website ini merupakan project pertama saya dalam dunia pemrograman sekaligus sebagai student Phase 0 di Hacktiv8 ###
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Program ini menggabungkan bahasa pemrograman HTML, CSS, dan Javascript di dalamnya ###
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-========================================================
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Element and Program Description :
+## Learn More
 
-========================================================
+To learn more about Next.js, take a look at the following resources:
 
-1. User memasukkan reminder di kotak "REMIND ME TO".
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-2. User memasukkan jumlah jam yang diinginkan dalam kotak "HOURS".
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-3. User memasukkan jumlah menit yang diinginkan dalam kotak "MINUTES".
+## Deploy on Vercel
 
-4. User memasukkan jumlah detik yang diinginkan dalam kotak "SECONDS".
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-5. User menekan tombol "COUNT ME DOWN!" untuk memulai proses timer (perhitungan mundur) jika semua kotak sudah terisi.
-
-6. Jika waktu sudah habis, sebuah Pop-Up message yang berisi reminder akan muncul bersamaan dengan suara alarm yang menyala.
-
-7. User mematikan suara alarm dengan menekan tombol "STOP ALARM".
-
-8. Proses perhitungan mundur (timer) reminder yang telah diisi oleh user akan muncul di console browser.
-
-========================================================
-
-* "REMIND ME TO" BOX : 
-
-Merupakan text box yang dapat diisi oleh user berupa hal yang ingin program ingatkan kepada user
-
-* "HOURS" :
-
-Merupakan number box berupa angka mulai dari 0 sampai dengan tidak terbatas. Element ini mengindikasikan jumlah countdown satuan jam dalam hitung mundur waktu.
-
-* "MINUTES" : 
-
-Merupakan number box berupa angka mulai dari 0 sampai dengan 60. Element ini mengindikasikan jumlah countdown satuan menit dalam hitung mundur waktu.
-
-* "SECONDS" :
-
-Merupakan number box berupa angka mulai dari 0 sampai dengan 60. Element ini mengindikasikan jumlah countdown satuan detik dalam hitung mundur waktu.
-
-* "COUNT ME DOWN!" :
-
-Merupakan tombol untuk memulai proses countdown dan menambahkan queue sebanyak 1.
-
-* "Queue" :
-
-Merupakan angka untuk memberikan informasi terkait jumlah timer yang aktif.
-
-* "Reminder" :
-
-Merupakan label untuk memberikan penjelasan terhadap Element Queue yang tampil di sebelahnya.
-
-* "STOP ALARM" :
-
-Merupakan tombol untuk memberhentikan suara alarm sekaligus mengurangi Element Queue sebanyak 1.
-
-* "Read Me" :
-
-Merupakan sebuah link yang akan merujuk pada manual penggunaan Program dan Website TIMER:Hubb
-
-* "About Me" :
-
-Merupakan sebuah link yang akan merujuk pada sekilas tentang developper.
-
-========================================================
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
