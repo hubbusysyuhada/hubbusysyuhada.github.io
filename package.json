@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "deploy": "gh-pages -d out",
+    "deploy-from-main": "git subtree split --prefix=out -b deploy-branch && git push origin deploy-branch:gh-pages -f && git branch -D deploy-branch",
     "start": "next start",
     "lint": "eslint"
   },

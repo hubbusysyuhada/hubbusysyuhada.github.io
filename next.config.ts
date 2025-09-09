@@ -2,8 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/hubbusysyuhada.github.io",
-  assetPrefix: "//hubbusysyuhada.github.io/",
   images: {
     remotePatterns: [
       {
