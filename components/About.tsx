@@ -7,9 +7,9 @@ export default function About() {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
           About Me
         </h2>
-        <Card className="border-0 shadow-lg card relative">
+        <Card className="border-0 shadow-lg card relative !p-0">
           <CardContent className="p-8">
-            <p className="text-lg text-muted-foreground leading-relaxed text-balance">
+            <p className="text-lg text-muted-foreground leading-relaxed text-justify">
               Full Stack Engineer with 4+ years of experience building scalable
               web applications using TypeScript, Node.js, PHP (Laravel), Nuxt,
               and PostgreSQL. Led development of design systems, internal tools,

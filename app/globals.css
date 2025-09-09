@@ -17,11 +17,13 @@ html {
   --popover-foreground: oklch(0.35 0 0);
   --primary: oklch(0.55 0.15 200);
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.65 0.25 330);
+  --secondary: #3f51b5;
+  /* --secondary: oklch(0.65 0.25 330); */
   --secondary-foreground: oklch(1 0 0);
   --muted: oklch(0.98 0 0);
   --muted-foreground: oklch(0.5 0 0);
-  --accent: oklch(0.65 0.25 330);
+  --accent: #3f51b5;
+  /* --accent: oklch(0.65 0.25 330); */
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
@@ -38,7 +40,8 @@ html {
   --sidebar-foreground: oklch(0.35 0 0);
   --sidebar-primary: oklch(0.55 0.15 200);
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.65 0.25 330);
+  --sidebar-accent: #3f51b5;
+  /* --sidebar-accent: oklch(0.65 0.25 330); */
   --sidebar-accent-foreground: oklch(1 0 0);
   --sidebar-border: oklch(0.92 0 0);
   --sidebar-ring: oklch(0.55 0.15 200 / 0.5);

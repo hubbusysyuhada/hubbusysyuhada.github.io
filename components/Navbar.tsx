@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50">
+    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 hidden hidden md:block">
       <div className="bg-background/90 backdrop-blur-xl border border-border rounded-full px-6 py-3 shadow-lg">
         <div className="flex items-center gap-8">
           <div className="w-10 h-10 rounded-full border-2 border-primary bg-primary/20 flex items-center justify-center">
