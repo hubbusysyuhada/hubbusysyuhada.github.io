@@ -14,6 +14,7 @@ export default function Header() {
             className="object-cover"
             sizes="128px"
             priority
+            unoptimized
           />
         </div>
         <h1 className="text-4xl md:text-6xl font-bold text-balance mb-4">

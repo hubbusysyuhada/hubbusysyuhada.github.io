@@ -16,6 +16,7 @@ export default function LanguageCard(payload: {
           fill
           className="object-cover"
           sizes="32px"
+          unoptimized
         />
       </div>
       <div className="flex-1">

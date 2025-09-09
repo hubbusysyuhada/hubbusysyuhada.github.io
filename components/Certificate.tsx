@@ -1,5 +1,4 @@
 import Image from "next/image";
-// https://www.hackerrank.com/certificates/iframe/641538fc023a
 export default function CertificateCard(payload: {
   title: string;
   provider: string;
@@ -21,6 +20,7 @@ export default function CertificateCard(payload: {
           alt={title + provider + " cert"}
           fill
           objectFit="contain"
+          unoptimized
         />
       </div>
       <div>

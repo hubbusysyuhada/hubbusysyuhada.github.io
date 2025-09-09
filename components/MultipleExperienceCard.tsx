@@ -97,6 +97,7 @@ export default function MultipleExperienceCard(payload: {
               alt={experience.company + " logo"}
               fill
               objectFit="contain"
+              unoptimized
             />
           </div>
           <div className="flex flex-col justify-center">
@@ -151,6 +152,7 @@ export default function MultipleExperienceCard(payload: {
                             fill
                             objectFit="contain"
                             className="rounded-md hover:cursor-pointer"
+                            unoptimized
                           />
                         </div>
                       </DialogTrigger>
@@ -189,6 +191,7 @@ export default function MultipleExperienceCard(payload: {
                             width={1920}
                             height={1080}
                             className="h-auto max-h-[90vh] w-auto"
+                            unoptimized
                           />
                         </div>
                       </div>
